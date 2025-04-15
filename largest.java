@@ -14,9 +14,9 @@ public class largest {
         int c = input.nextInt();
 
         int largest;
-        if (a >= b && a >= c) {
+        if (a > b && a > c) {
             largest = a;
-        } else if (b >= a && b >= c) {
+        } else if (b > a && b > c) {
             largest = b;
         } else {
             largest = c;
